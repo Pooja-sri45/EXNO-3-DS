@@ -38,6 +38,7 @@ df=pd.read_csv("Encoding Data.csv")
 df
 ```
 <img width="358" height="456" alt="image" src="https://github.com/user-attachments/assets/b7fea0bc-4cbe-4c27-9d33-93a7b186c936" />
+
 ```
 from sklearn.preprocessing import LabelEncoder,OrdinalEncoder
 pm=['Hot','Warm','Cold']
@@ -45,6 +46,7 @@ e1=OrdinalEncoder(categories=[pm])
 e1.fit_transform(df[["ord_2"]])
 ```
 <img width="382" height="231" alt="image" src="https://github.com/user-attachments/assets/a50fe7a5-dfe2-401b-88b0-fbb90f4daed9" />
+
 ```
 
 
