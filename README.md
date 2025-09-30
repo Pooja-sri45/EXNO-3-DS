@@ -138,7 +138,7 @@ np.reciprocal(df["Moderate Positive Skew"])
 ```
 np.sqrt(df["Highly Positive Skew"])
 ```
-<img width="426" height="542" alt="image" src="https://github.com/user-attachments/assets/b2893389-4a9c-47cb-b23d-0b0b717a78f7" />
+<img width="687" height="562" alt="image" src="https://github.com/user-attachments/assets/73cf4237-89cf-4112-87bc-94ee12e31bb6" />
 
 ```
 np.square(df["Highly Positive Skew"])
