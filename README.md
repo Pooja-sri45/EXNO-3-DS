@@ -1,5 +1,6 @@
 ## EXNO-3-DS
-
+## NAME: POOJASRI L
+## REG.NO:212223220076
 # AIM:
 To read the given data and perform Feature Encoding and Transformation process and save the data to a file.
 
@@ -31,8 +32,26 @@ We use this categorical data encoding technique when the features are nominal(do
 • Yeojohnson method
 
 # CODING AND OUTPUT:
-       # INCLUDE YOUR CODING AND OUTPUT SCREENSHOTS HERE
+```
+import pandas as pd
+df=pd.read_csv("Encoding Data.csv")
+df
+```
+<img width="358" height="456" alt="image" src="https://github.com/user-attachments/assets/b7fea0bc-4cbe-4c27-9d33-93a7b186c936" />
+```
+from sklearn.preprocessing import LabelEncoder,OrdinalEncoder
+pm=['Hot','Warm','Cold']
+e1=OrdinalEncoder(categories=[pm])
+e1.fit_transform(df[["ord_2"]])
+```
+<img width="382" height="231" alt="image" src="https://github.com/user-attachments/assets/a50fe7a5-dfe2-401b-88b0-fbb90f4daed9" />
+```
+
+
+
+
 # RESULT:
-       # INCLUDE YOUR RESULT HERE
+  Thus the given data, Feature Encoding, Transformation process and save the data to a file
+ was performed successfully.
 
        
